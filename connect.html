@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="connect.css">
+    <title>www.ironfitness.com</title>
+</head>
+<!------------------------------------------------>
+<!------------------------------------------------>
+
+<body>
+    <header>
+        <div class="header">
+            <!-- for logo -->
+            <div class="left">
+                <img src="img/logo.png" alt="loading...">
+                <a href="index.html">IRON FITNESS</a>
+            </div>
+
+            <!-- for navbar -->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li>|</li>
+                    <li><a href="about.html">About us</a></li>
+                    <li>|</li>
+                    <li><a href="service.html">Services</a></li>
+                    <li>|</li>
+                    <li><a href="connect.html">Connect with us</a></li>
+                </ul>
+            </div>
+
+            <!-- for other buttons -->
+            <div class="right">
+                <button class="btn"><a href="review.html" target="blank_">CLIENT REVIEWS</a> </button>
+                <button class="btn"><a href="trainer.html" target="blank_">OUR TRAINERS</a> </button>
+            </div>
+        </div>
+    </header>
+    <!-- -------------------------------------------------------- -->
+    <!-- FORM FILLING -->
+    <h1 class="title">TO GET A CALL FROM US PLEASE FILL THE FORM</h1>
+    <form action="backend2.php">
+
+        <!-- NAME -->
+        <div class="single">
+            <input type="text" id="name" placeholder="ENTER YOUR NAME">
+        </div>
+
+        <!-- Phone number -->
+        <div class="single">
+            <input type="number" , id="phno" placeholder="ENTER YOUR PHONE NUMBER">
+        </div>
+
+        <!-- Email -->
+        <div class="single">
+            <input type="email" , id="email" placeholder="ENTER YOUR EMAIL ID">
+        </div>
+
+        <!-- Age -->
+        <label for="age">SELECT YOUR AGE GROUP</label>
+        <div class="radio">
+            <h3>16 - 18</h3>
+            <input type="radio" id="age">
+            <h3>18 - 25</h3>
+            <input type="radio" id="age">
+            <h3>25 - 35</h3>
+            <input type="radio" id="age">
+            <h3>35 - 45</h3>
+            <input type="radio" id="age">
+            <h3>45 ABOVE</h3>
+            <input type="radio" id="age">
+        </div>
+
+        <!-- Age -->
+        <label for="gen">SELECT YOUR GENDER</label>
+        <div class="radio">
+            <h3>MALE</h3>
+            <input type="radio" id="gen">
+            <h3>FEMALE</h3>
+            <input type="radio" id="gen">
+            <h3>OTHERS</h3>
+            <input type="radio" id="gen">
+        </div>
+
+        <!-- text box -->
+        <label for="txt">TYPE IN YOUR QUERY</label>
+        <div class="txtbox">
+            <textarea name="txtbox" id="txt" placeholder="Your Query"></textarea>
+        </div>
+
+        <div class="options">
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </div>
+    </form>
+
+    <!-- ------------------------------------------------------------------------------------>
+    <footer class="foot">
+        <div class="upper">
+            <h1 class="mainhead">Our Branches</h1>
+
+            <div class="data">
+                <div class="city">
+                    <h1>Delhi</h1>
+                    <ul type="none">
+                        <li>Vikaspuri</li>
+                        <li>Janakpuri</li>
+                        <li>Dwarka</li>
+                        <li>Rajori Garden</li>
+                    </ul>
+                </div>
+                <div class="city">
+                    <h1>Mumbai</h1>
+                    <ul type="none">
+                        <li>Pawai</li>
+                        <li>Andheri</li>
+                        <li>Dadar</li>
+                        <li>Juhu</li>
+                    </ul>
+                </div>
+                <div class="city">
+                    <h1>Banglore</h1>
+                    <ul type="none">
+                        <li>Indira Nagar</li>
+                        <li>Jayanagar</li>
+                        <li>Koramangala</li>
+                        <li>Rajaji Nagar</li>
+                    </ul>
+                </div>
+                <div class="city">
+                    <h1>Uttar Pradesh</h1>
+                    <ul type="none">
+                        <li>Kanpur</li>
+                        <li>Lucknow</li>
+                        <li>Jhansi</li>
+                        <li>Bareilly</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!------------------->
+        <div class="lower">
+            <h3 class="copyright">
+                Copyright © All rights reserved | www.ironfitness.com
+            </h3>
+        </div>
+    </footer>
+</body>
+
+</html>

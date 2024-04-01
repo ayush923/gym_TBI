@@ -1,0 +1,209 @@
+body {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    /* background: url("bg2.jpg"); */
+    background-color: black;
+    background-size: cover;
+    font-family: 'Bangers', cursive;
+    background-repeat: no-repeat;
+}
+/* ---------------------------------- */
+.left {
+    /* border: 3px solid rgb(255, 89, 28); */
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 200px;
+    clear: both;
+}
+.mid {
+    /* border: 3px solid rgb(255, 89, 28); */
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    /* position: sticky; */
+    box-sizing: border-box;
+    text-align: center;
+    clear: both;
+}
+.right {
+    /* border: 3px solid rgb(255, 89, 28); */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    clear: both;
+}
+/* ---------------------------------- */
+.left img {
+    /* border: 3px solid rgb(255, 89, 28); */
+    width: 80px;
+    display: block;
+    position: relative;
+    left: 0px;
+    /* height: 10px; */
+    /* filter: invert(100%); */
+}
+.left a{
+    /* border: 3px solid rgb(255, 89, 28); */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 130px;
+    position: absolute;
+    left: 90px;
+    top: 10px;
+}
+.left a:hover{
+    color: rgb(255, 89, 28);
+    text-decoration: underline;    
+}
+/* ---------------------------------- */
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 20px;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 89, 28);
+    /* color: grey; */
+}
+/* ---------------------------------- */
+.right button{
+    margin: 9px;
+    padding: 4px 8px; 
+    background-color: black;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.right button a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Bangers', cursive;
+}
+.right button a:hover{
+    color: rgb(0, 0, 0);
+}
+.right button:hover{
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 89, 28);
+    cursor: pointer;
+}
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+.container{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 89, 28);
+    width: 845px;
+    margin: 60px auto;
+    padding: 20px;
+}
+.container .text{
+    /* border: 3px solid rgb(0, 0, 0); */
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.container .heading{
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 20px;
+    width: 180px;
+    text-align: center;
+    margin: 20px 150px;
+}
+.container .para{
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+}
+.container img{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 255px;
+    position: absolute;
+    margin-left: 575px;
+    margin-top: -278px;
+}
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+footer{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 89, 28);
+    margin-top: 200px;
+}
+footer .upper{
+    /* border: 5px solid rgb(22, 76, 255); */
+    padding-bottom: 30px;
+}
+footer .upper .mainhead{
+    border: 5px solid rgb(0, 0, 0);
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 300px;
+    margin: 40px auto;
+    padding-top: 18px;
+    height: 50px;
+    text-align: center;
+}
+footer .upper .data{
+    /* border: 5px solid rgb(238, 0, 0); */
+    display: block;
+    width: 1250px;
+    margin: auto;
+}   
+footer .upper .data .city{
+    /* border: 5px solid rgb(255, 255, 255); */
+    display: inline-block;
+    margin: 0px 50px;
+    width: 200px;
+    text-align: center;
+}
+footer .upper .data .city h1{
+    color: black;
+    text-decoration: underline;
+}
+footer .upper .data .city ul{
+    /* border: 3px solid red; */
+    padding-right: 42px;
+}
+footer .upper .data .city ul li{
+    font-size: 20px;
+}
+/* ------------------------- */
+footer .lower{
+    /* border: 5px solid rgb(4, 247, 85); */
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 100px;
+    padding-top: 45px;
+}
